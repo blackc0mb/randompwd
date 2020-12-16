@@ -1,5 +1,5 @@
 import random
-
+## powered by raspberry.org
 class pwd():
     def __init__(self):
         self.numpass = None

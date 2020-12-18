@@ -13,8 +13,10 @@ class pwd():
     
     def get_passwords(self):
         chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ0123456789._?#$%&=),!-;*'
+        retPassword = []
         for p in range(self.numpass):
             password = ''
             for c in range(self.passlenght):
                 password += random.choice(chars)
-            return password
+            retPassword.append(password)
+        return retPassword

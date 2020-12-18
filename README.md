@@ -1,3 +1,3 @@
 # randompwd
-random password tests
+Generate random password
 powered by raspberry.org

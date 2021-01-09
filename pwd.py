@@ -20,3 +20,4 @@ class pwd():
                 password += random.choice(chars)
             retPassword.append(password)
         return retPassword
+        

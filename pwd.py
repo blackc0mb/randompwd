@@ -12,7 +12,7 @@ class pwd():
         self.passlenght = int(passlenght)
     
     def get_passwords(self):
-        chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ0123456789._?#$%&=),!-;*'
+        chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ0123456789._?#$%&=),!-;*+'
         retPassword = []
         for p in range(self.numpass):
             password = ''
